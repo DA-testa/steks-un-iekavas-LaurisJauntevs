@@ -41,8 +41,7 @@ def main():
          text = input()
          mismatch = find_mismatch(text)
          print(mismatch)
-     elif:
-         print("Wrong input")
+    
     # Printing answer, write your code here
 
     
