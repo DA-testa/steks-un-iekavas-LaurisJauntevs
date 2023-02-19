@@ -29,18 +29,22 @@ def find_mismatch(text):
 
 
 def main():
-    x = input("input I or F:")
-    if "F" in x:
-        text = input()
-        with open(text) as a:
-             text = a.read()
-             mismatch = find_mismatch(text)
-             print(mismatch)
-    elif "I" in x:
-        text = input()
-        mismatch = find_mismatch(text)
-        print(mismatch)
+    
+     x = input("input I or F:")
+     if "F" in x:
+         text = input()
+         with open(text) as a:
+              text = a.read()
+              mismatch = find_mismatch(text)
+              print(mismatch)
+     elif "I" in x:
+         text = input()
+         mismatch = find_mismatch(text)
+         print(mismatch)
+     elif:
+         print("Wrong input")
     # Printing answer, write your code here
 
+    
 if __name__ == "__main__":
     main()
