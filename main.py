@@ -21,7 +21,7 @@ def find_mismatch(text):
                 return i+1
             opening_brackets_stack.pop()
     if not opening_brackets_stack:
-        return "Sucess"
+        return " Success"
     else:
         return opening_brackets_stack[-1].position
            
@@ -37,9 +37,9 @@ def main():
              mismatch = find_mismatch(text)
              print(mismatch)
     elif "I" in x:
-            text = input()
-            mismatch = find_mismatch(text)
-            print(mismatch)
+        text = input()
+        mismatch = find_mismatch(text)
+        print(mismatch)
     # Printing answer, write your code here
 
 if __name__ == "__main__":
